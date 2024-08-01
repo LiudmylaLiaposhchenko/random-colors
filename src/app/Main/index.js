@@ -64,7 +64,7 @@ export default function Main({ defaultColors }) {
       <button 
         disabled={locked.every((l) => l)}
         onClick={updateColors} className={styles.generateColors}>
-        Generate colors once more
+        Regenerate colors
       </button>
     </main>
   )
